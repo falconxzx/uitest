@@ -8,10 +8,8 @@
 ## 支持平台及语言 ##
 python-uiautomator2封装了谷歌自带的uiautomator2测试框架，提供便利的python接口。他允许测试人员直接在PC上编写Python的测试代码，操作手机应用，完成自动化，大大提高了自动化代码编写的效率。
 ## 工作原理 ##
-```graphLR
-    A[python-uiautomator2] -->|HTTP| B(atx-agent)
-    B --> C(uiautomator.apk)
-```
+![Image](https://github.com/falconxzx/uitest/blob/master/67ee85df-47dd-4629-abb1-064e8354a026.png)
+
  - 手机连接到电脑，电脑使用adb向手机推送了一个二进制文件 atx-agent，启动atx-agent。
  - atx-agent是一个http服务器，运行在电脑上的python程序使用HTTP协议跟手机上atx-agent通信。
  - atx-agent随后启动uiautomator.apk这个应用，将收到的请求转换成UiAutomator的UI自动化操作。
