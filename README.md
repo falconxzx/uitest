@@ -33,6 +33,7 @@ Android 的自动化框架 UIAutomator ，UIAutomator 框架提供了3个非常�
  
 ## IOS可行性 ##
  [IOS自动化][3]
+ 
 ----------
 
 
