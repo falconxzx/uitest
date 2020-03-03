@@ -31,6 +31,8 @@ Android 的自动化框架 UIAutomator ，UIAutomator 框架提供了3个非常�
 ## 快速入门 ##
  [uiautomator2快速入门][2]
  
+## IOS可行性 ##
+ [IOS自动化][3]
 ----------
 
 
@@ -38,3 +40,4 @@ Android 的自动化框架 UIAutomator ，UIAutomator 框架提供了3个非常�
 
   [1]: https://github.com/openatx/uiautomator2
   [2]: https://github.com/openatx/uiautomator2/blob/master/QUICK_REFERENCE.md
+  [3]: https://github.com/openatx/facebook-wda
